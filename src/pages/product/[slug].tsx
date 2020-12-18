@@ -10,6 +10,7 @@ const AddToCartModal = dynamic(
   }
 )
 
+
 export default function Product() {
   const router = useRouter();
   const [isAddToCartModalVisible, setIsAddToCartModalVisible] = useState<boolean>(false);
